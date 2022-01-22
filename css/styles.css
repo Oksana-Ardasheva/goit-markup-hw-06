@@ -765,6 +765,7 @@ address p {
 
 .form-footer-icon {
   position: absolute;
+  display: block;
   top: 50%;
   left: 148px;
   transform: translateY(-50%);
@@ -875,7 +876,7 @@ address p {
 
 .form-footer-btn {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
 }
 
