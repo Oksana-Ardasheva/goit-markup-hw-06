@@ -448,17 +448,19 @@
               placeholder="E-mail"
               class="footer-input"
             />
-            <button type="submit" class="footer-btn">
-              Подписаться
-              <svg class="icon footer-icon" width="12" height="12">
-                <use href="./images/sprite.svg#icon-linkedin1"></use>
-              </svg>
-            </button>
+            <div class="form-footer-btn">
+              <button type="submit" class="footer-btn">
+                Подписаться
+                <svg class="form-footer-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="icon modal-icon" width="11" height="11">
@@ -478,7 +480,7 @@
               id="user-name"
             />
             <svg class="input-icon" width="18" height="18">
-              <use href="./images/sprite.svg#person-form"></use>
+              <use href="./images/sprite.svg#icon-person"></use>
             </svg>
           </div>
           <label class="input-text" for="user-tel">Телефон</label>
@@ -493,7 +495,7 @@
               id="user-tel"
             />
             <svg class="input-icon" width="18" height="18">
-              <use href="./images/sprite.svg#phone-form"></use>
+              <use href="./images/sprite.svg#icon-phone"></use>
             </svg>
           </div>
           <div class="form-field">
@@ -508,7 +510,7 @@
                 id="user-email"
               />
               <svg class="input-icon" width="18" height="18">
-                <use href="./images/sprite.svg#email-form"></use>
+                <use href="./images/sprite.svg#icon-email"></use>
               </svg>
             </div>
           </div>

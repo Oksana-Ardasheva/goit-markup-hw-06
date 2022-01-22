@@ -763,6 +763,13 @@ address p {
   fill: #ffffff;
 }
 
+.form-footer-icon {
+  position: absolute;
+  top: 50%;
+  left: 148px;
+  transform: translateY(-50%);
+}
+
 .footer-link {
   width: 44px;
   height: 44px;
@@ -853,7 +860,7 @@ address p {
   padding: 15px 0 15px 16px;
   font-family: inherit;
   margin-right: 12px;
-  border: 1px solid rgba(255, 255, 255, 0, 3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -866,8 +873,13 @@ address p {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-btn {
+.form-footer-btn {
+  position: relative;
+  display: inline-block;
   align-items: center;
+}
+
+.footer-btn {
   min-width: 200px;
   min-height: 50px;
   background: #2196f3;
@@ -878,6 +890,8 @@ address p {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
+  padding-left: 29px;
+  text-align-last: left;
 }
 
 .form-footer label {
